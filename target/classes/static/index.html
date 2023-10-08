@@ -12,10 +12,16 @@
     </head>
     <body>
         <header>
-            <nav>
-                <a href="index.html"><h1>TechShop</h1></a><br>
-                <a href="ejemplo6.html">=></a>
-                <a href="ejemplo5.html"><=</a>
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">TechShop</a><br>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Ejemplo3.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Ejemplo4.html">&RightTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="audios.html">Audios</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="videos.html">Videos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="iframe.html">iFrame</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="formularios.html">Formularios</a></li>
+                </ul>
             </nav>
             <hr>
         </header>
@@ -26,7 +32,57 @@
                 Segun los datos del mes de febrero, el producto X203 fue el que registro mas ventas segun las ventas del mes de enero
             </p>
         </aside>
+
         <section>
+            <h2>Listado de Productos</h2>
+            <article>
+                <br>
+                <table border="0">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Codigo</th>
+                            <th>Descripcion</th>
+                            <th>Precio</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="celdaCentrada">1</td>
+                            <td class="celdaCentrada">X206</td>
+                            <td>Servidor de gama media</td>
+                            <td class="celdaDerecha">₡350,000.00</td>
+                            <td class="celdaDerecha"><a href="Cliente/Eliminar/1">Eliminar</a>
+                                <a href="Cliente/Modificar/1">Modificar</a></td>
+                        </tr>
+                        <tr>
+                            <td class="celdaCentrada">2</td>
+                            <td class="celdaCentrada">X216</td>
+                            <td>Servidor de gama alta</td>
+                            <td class="celdaDerecha">₡550,000.00</td>
+                            <td class="celdaDerecha"><a href="Cliente/Eliminar/2">Eliminar</a>
+                                <a href="Cliente/Modificar/2">Modificar</a></td>
+                        </tr>
+                        <tr>
+                            <td class="celdaCentrada">3</td>
+                            <td class="celdaCentrada">X116</td>
+                            <td>Servidor de gama baja</td>
+                            <td class="celdaDerecha">₡150,000.00</td>
+                            <td class="celdaDerecha"><a href="Cliente/Eliminar/3">Eliminar</a>
+                                <a href="Cliente/Modificar/3">Modificar</a></td>
+                        </tr>
+                        <tr>
+                            <td class="celdaCentrada">4</td>
+                            <td class="celdaCentrada">C105</td>
+                            <td>Computadora de escritorio</td>
+                            <td class="celdaDerecha">₡100,000.00</td>
+                            <td class="celdaDerecha"><a href="Cliente/Eliminar/4">Eliminar</a>
+                                <a href="Cliente/Modificar/4">Modificar</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
             <h2>Nuestros productos</h2>
             <article>
                 <hr>
